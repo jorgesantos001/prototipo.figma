@@ -1,1 +1,1 @@
-# prototipo.figma
+# Coletando referência no FIGMA para desenvolvimento Front-end
