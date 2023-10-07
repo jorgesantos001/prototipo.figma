@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap"
+rel="stylesheet">
 </head>
 <body>
 
@@ -13,15 +18,15 @@
 
         <div class="menus">
             <ul class="menu">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Announced</a></li>
-                <li><a href="#">Preparation</a></li>
-                <li><a href="#">Sorted</a></li>
-                <li><a href="#">Distributed</a></li>
+                <li><a href="#" id="dashboard-button">Dashboard</a></li><br>
+                <li><a href="#" id="announced-button">Announced</a></li><br>
+                <li><a href="#" id="preparation-button">Preparation</a></li><br>
+                <li><a href="#" id="sorted-button">Sorted</a></li><br>
+                <li><a href="#" id="distributed-button">Distributed</a></li><br>
             </ul>
 
             <ul class="menu">
-                <li><a href="#">Logout</a></li>    
+                <li><a href="#" id="logout-button">Logout</a></li>    
             </ul>
         </div>
     </nav>
@@ -30,19 +35,19 @@
         <header class="top_nav">
             <nav>
                 <ul class="topnav_menu">
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Settings</a></li>
+                    <li><a href="#" id="profile-button">Profile</a></li>
+                    <li><a href="#" id="settings-button">Settings</a></li>
                 </ul>
             </nav>
 
             <section class="Perfil">
-                <div>Jorge Santos</div>
+                <div><span class="nome">Jorge Santos</span></div>
                 <div>Front-end</div>
             </section>
         </header>
 
         <main>
-            <section class="sumary">
+            <section class="summary">
                 <article>
                     <span class="description">Announced Today</span>
                     <span class="number">235600</span>
@@ -72,10 +77,8 @@
                 <article class="chart">
                     <img src="img/chart3.png" alt="chart 3">
                 </article>
-            
             </div>
         </main>
-
     </div>
 </body>
 </html>

@@ -5,10 +5,12 @@
     --grey: #c4c4c4;
     --default-pad: 2.5rem;
     --medium-pad: calc(var(--default-pad) / 2);
-    --small-pad: calc(var(--medium) / 2);
+    --small-pad: calc(var(--medium-pad) / 2);
+}
+html{
+    height: 100%;
 }
 html, body{
-    height: 100%;
     margin: 0;
 }
 body{
@@ -39,13 +41,16 @@ body{
     background-color: var(--light);
 }
 .main_nav > a{
-    color: var(--black, #111);
+    padding: var(--default-pad);
+    width: 149px;
+    height: 36px;
     font-family: Poppins;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    padding-left: var(--default-pad);
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
     text-decoration: none;
 }
 .main_content{
@@ -66,7 +71,7 @@ main{
     padding: var(--default-pad);
     display: flex;
     flex-direction: column;
-    gap: var(--default-pad)
+    gap: var(--default-pad);
 }
 .summary{
     display: flex;
@@ -78,14 +83,14 @@ main{
 .separate{
     width: 1px;
     border-left: 2px solid var (--grey);
-    align-items: stretch;
+    align-self: stretch;
 }
 img{
     width: 100%;
 }
 .btn{
     background-color: var(--primary-color);
-    columns: var(--light);
+    color: var(--light);
     text-decoration: none;
     border-radius: 5px;
     padding: var(--small-pad) var(--medium-pad);
@@ -100,7 +105,7 @@ img{
 .number{
     color: var(--primary-color);
     font-weight: 600;
-    padding: 0 .5rem;
+    padding: 0.5rem;
 }
 .menus .menu:first-child{
     border-bottom: 1px solid var(--grey);
@@ -109,4 +114,105 @@ img{
     position: fixed;
     left: var(--small-pad);
     bottom: var(--medium-pad);
+}
+#logout-button{
+    color: #5a5a5f;
+    text-decoration: none;
+}
+#dashboard-button{
+    color: #5a5a5f;
+    width: 111px;
+    height: 27px;
+    top: 96px;
+    left: 74px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    text-decoration: none;
+}
+#announced-button{
+    color: #5a5a5f;
+    width: 111px;
+    height: 27px;
+    top: 96px;
+    left: 74px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    text-decoration: none;
+}
+#preparation-button{
+    color: #5a5a5f;
+    width: 111px;
+    height: 27px;
+    top: 96px;
+    left: 74px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    text-decoration: none;
+}
+#sorted-button{
+    color: #5a5a5f;
+    width: 111px;
+    height: 27px;
+    top: 96px;
+    left: 74px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    text-decoration: none;
+}
+#distributed-button{
+    color: #5a5a5f;
+    width: 111px;
+    height: 27px;
+    top: 96px;
+    left: 74px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    text-decoration: none;
+}
+#profile-button{
+    width: 58px;
+    height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5A5A5F;
+    text-decoration: none;
+}
+#settings-button{
+    width: 58px;
+    height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5A5A5F;
+    text-decoration: none;
+}
+.Perfil .nome{
+    color: black
 }
