@@ -41,7 +41,7 @@ body{
     background-color: var(--light);
 }
 .main_nav > a{
-    padding: var(--default-pad);
+    padding: 10px;
     width: 149px;
     height: 36px;
     font-family: Poppins;
@@ -52,12 +52,15 @@ body{
     text-align: left;
     color: black;
     text-decoration: none;
+    font-style: normal;
+    margin-left: 15px;
 }
 .main_content{
     flex-grow: 1;
+    background-color: #F2F2F8;
 }
 .top_nav{
-    background-color: #ddd;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,6 +109,7 @@ img{
     color: var(--primary-color);
     font-weight: 600;
     padding: 0.5rem;
+    font-size: 24px;
 }
 .menus .menu:first-child{
     border-bottom: 1px solid var(--grey);
@@ -119,99 +123,124 @@ img{
     color: #5a5a5f;
     text-decoration: none;
 }
+#logout-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
 #dashboard-button{
-    color: #5a5a5f;
-    width: 111px;
-    height: 27px;
-    top: 96px;
-    left: 74px;
+    color: #5A5A5F;
     font-family: Poppins;
     font-size: 18px;
+    font-style: normal;
     font-weight: 500;
     line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left; 
+    letter-spacing: 0.36px;
     text-decoration: none;
+}
+#dashboard-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
 #announced-button{
-    color: #5a5a5f;
-    width: 111px;
-    height: 27px;
-    top: 96px;
-    left: 74px;
+    color: #5A5A5F;
     font-family: Poppins;
     font-size: 18px;
+    font-style: normal;
     font-weight: 500;
     line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left; 
+    letter-spacing: 0.36px;
     text-decoration: none;
+}
+#announced-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
 #preparation-button{
-    color: #5a5a5f;
-    width: 111px;
-    height: 27px;
-    top: 96px;
-    left: 74px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left; 
-    text-decoration: none;
-}
-#sorted-button{
-    color: #5a5a5f;
-    width: 111px;
-    height: 27px;
-    top: 96px;
-    left: 74px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left; 
-    text-decoration: none;
-}
-#distributed-button{
-    color: #5a5a5f;
-    width: 111px;
-    height: 27px;
-    top: 96px;
-    left: 74px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left; 
-    text-decoration: none;
-}
-#profile-button{
-    width: 58px;
-    height: 27px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left;
     color: #5A5A5F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
     text-decoration: none;
+}
+#preparation-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}    
+#sorted-button{
+    color: #5A5A5F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+}
+#sorted-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}    
+#distributed-button{
+    color: #5A5A5F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+}
+#distributed-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}    
+#profile-button{
+    color: #5A5A5F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+}
+#profile-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
 #settings-button{
-    width: 58px;
-    height: 27px;
+    color: #5A5A5F;
     font-family: Poppins;
     font-size: 18px;
+    font-style: normal;
     font-weight: 500;
     line-height: 27px;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #5A5A5F;
+    letter-spacing: 0.36px;
     text-decoration: none;
+}
+#settings-button img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin-left: 25px;
 }
 .Perfil .nome{
     color: black
